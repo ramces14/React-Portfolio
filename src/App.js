@@ -7,12 +7,11 @@ import Home from './components/Home';
 // Styles
 import './css/App.css';
 
-import { BrowserRouter as Router, Switch, Route, HashRouter} from "react-router-dom";
+import { HashRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
 
     return (
-        <HashRouter basename='/'>
         <Router>
             <div className="app">
                 <Switch>
@@ -34,7 +33,6 @@ function App() {
                 </Switch>
             </div>
         </Router>
-        </HashRouter>
     );
 }
 
