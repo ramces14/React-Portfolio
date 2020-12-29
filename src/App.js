@@ -25,7 +25,7 @@ function App() {
                         <About />
                     </Route>
             
-                    <Route path="/React-Portfolio">
+                    <Route path="/">
                         <Header />
                         <Home />
                     </Route>
