@@ -1,0 +1,148 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+}
+
+/* Avatar Styling */
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid whitesmoke;
+}
+
+/* Introduction Styling */
+
+.home__introduction {
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+}
+
+.home__introduction > h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.home__introduction > p {
+  font-size: 22px;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.bold:hover {
+  color: whitesmoke;
+}
+
+/* Styling for badge div */
+
+.WhatIDo-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #0f3057;
+  border: 2px solid #e7e7de;
+}
+
+.badge-title {
+  color: #e7e7de;
+  margin: 40px 0;
+  font-size: 48px;
+}
+
+.badge-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  grid-row-gap: 10px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badges {
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.badges > img {
+  position: relative;
+  top: 12.5%;
+  width: 75px;
+}
+
+@media (min-width: 768px) {
+  .home__introduction {
+    max-width: 731.2px;
+  }
+
+  .home__avatar {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+
+  /* Avatar Styling */
+
+  .avatar__container {
+    display: flex;
+    margin: 150px auto;
+  }
+
+  .home__avatar {
+    width: 350px;
+    height: 350px;
+  }
+
+  /* Introduction Styling */
+
+  .home__introduction {
+    width: 475px;
+    padding: 20px;
+    margin: 150px 20px;
+  }
+
+  .home__introduction > h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+
+  .home__introduction > p {
+    font-size: 22px;
+    color: whitesmoke;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  /* Styling for badge div */
+  .WhatIDo-container {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+}

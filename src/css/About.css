@@ -1,0 +1,144 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-title {
+  color: #e7e7de;
+  text-align: center;
+  font-size: 48px;
+  margin: 50px 0;
+  order: 1;
+}
+
+.intro {
+  background-color: #3eecc1;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  order: 2;
+}
+
+.intro > p {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #0f3057;
+  border-radius: 5px;
+}
+
+.img-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  order: 3;
+}
+
+.img-container > img {
+  width: 100%;
+  object-fit: contain;
+  border: solid 2px whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about__container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  order: 4;
+}
+
+.about__container > p {
+  font-size: 18px;
+  color: #e7e7de;
+}
+
+.about__links {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.about__resume {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-left: 204px; */
+  color: whitesmoke;
+  display: inline-block;
+  position: relative;
+}
+
+.about__resume:hover {
+  color: #3eecc1;
+  transition: 0.5s;
+}
+
+.download__icon {
+  color: #3eecc1;
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  left: 45px;
+  bottom: 5px;
+}
+
+.about__resume:hover .download__icon {
+  opacity: 1;
+  left: 130px;
+  transition: left 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+@media (min-width: 1024px) {
+  .about {
+    max-width: 100%;
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 10px;
+  }
+
+  .about-title {
+    order: 1;
+    grid-area: title;
+    text-align: left;
+    margin: 10px 0;
+    margin-left: 25px;
+  }
+
+  .intro {
+    order: 2;
+    grid-area: subtitle;
+    grid-column: 1 /-1;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+
+  .intro > p {
+    margin-left: 25px;
+  }
+
+  .about__container {
+    order: 3;
+    grid-area: text;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .about__container > p {
+    font-size: 18px;
+  }
+
+  .img-container {
+    order: 4;
+    grid-area: img;
+    margin: 0 auto;
+  }
+}
