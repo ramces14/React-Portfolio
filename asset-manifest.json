@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e7e2d697.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.40a03f5b.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.40a03f5b.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0ad08de7.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0ad08de7.js.map",
+    "static/js/2.dccdd241.chunk.js": "/React-Portfolio/static/js/2.dccdd241.chunk.js",
+    "static/js/2.dccdd241.chunk.js.map": "/React-Portfolio/static/js/2.dccdd241.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.a4b2c47e68f3aac8967cfdc092d172ad.js": "/React-Portfolio/precache-manifest.a4b2c47e68f3aac8967cfdc092d172ad.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.e7e2d697.chunk.css.map": "/React-Portfolio/static/css/main.e7e2d697.chunk.css.map",
+    "static/js/2.dccdd241.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.dccdd241.chunk.js.LICENSE.txt",
+    "static/media/Greece-2.jpg": "/React-Portfolio/static/media/Greece-2.19d1d4d5.jpg",
+    "static/media/Profile-picture.jpg": "/React-Portfolio/static/media/Profile-picture.34bdd94f.jpg",
+    "static/media/RamcesLogoMint.jpg": "/React-Portfolio/static/media/RamcesLogoMint.354ae5f9.jpg",
+    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.892debf8.pdf",
+    "static/media/Screenshot-Daily-Journal.jpg": "/React-Portfolio/static/media/Screenshot-Daily-Journal.a019b7f6.jpg",
+    "static/media/Screenshot-Simon-Game.jpg": "/React-Portfolio/static/media/Screenshot-Simon-Game.2445df35.jpg",
+    "static/media/Screenshot-ToDoList.jpg": "/React-Portfolio/static/media/Screenshot-ToDoList.b72ff9a6.jpg",
+    "static/media/Techdegree-project-1-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-1-screenshot.ad3df747.png",
+    "static/media/Techdegree-project-2-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-2-screenshot.2850d755.png",
+    "static/media/Techdegree-project-3-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-3-screenshot.50cfc955.png",
+    "static/media/Techdegree-project-4-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-4-screenshot.36dd67d8.png",
+    "static/media/Techdegree-project-6-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-6-screenshot.40fab099.png",
+    "static/media/Techdegree-project-7-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-7-screenshot.89625300.png",
+    "static/media/Techdegree-project-8-screenshot.png": "/React-Portfolio/static/media/Techdegree-project-8-screenshot.57367319.png",
+    "static/media/amazon-clone.jpg": "/React-Portfolio/static/media/amazon-clone.612c1933.jpg",
+    "static/media/express.png": "/React-Portfolio/static/media/express.c9b864a6.png",
+    "static/media/javascript.png": "/React-Portfolio/static/media/javascript.e38bf3f9.png",
+    "static/media/mongoDB.png": "/React-Portfolio/static/media/mongoDB.3d21b082.png",
+    "static/media/netflix-clone.jpg": "/React-Portfolio/static/media/netflix-clone.3def23f3.jpg",
+    "static/media/node.png": "/React-Portfolio/static/media/node.717f5055.png",
+    "static/media/react.png": "/React-Portfolio/static/media/react.37ada809.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ad08de7.js",
+    "static/js/2.dccdd241.chunk.js",
+    "static/css/main.e7e2d697.chunk.css",
+    "static/js/main.40a03f5b.chunk.js"
+  ]
+}
