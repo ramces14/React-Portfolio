@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from "./Card";
 import information from "../cardInformation";
-import "../css/Card.css";
 
 function HTML() {
     const [html] = information;

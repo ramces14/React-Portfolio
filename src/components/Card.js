@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../scss/Card.scss"
+
 function Card(props) {
    return (
       <div className="card">
@@ -10,8 +12,8 @@ function Card(props) {
          </div>
 
          <div className="btn-container">
-         <a href={props.link} className="btn btn-color custom-btn" target="_blank" rel="noopener noreferrer" >Launch website</a>
-         <a href={props.github} className="btn btn-color custom-btn" target="_blank" rel="noopener noreferrer" >Github</a>
+            <a href={props.link} className="btn btn-color custom-btn" target="_blank" rel="noopener noreferrer" >Launch website</a>
+            <a href={props.github} className="btn btn-color custom-btn" target="_blank" rel="noopener noreferrer" >Github</a>
          </div>
       </div>
    )

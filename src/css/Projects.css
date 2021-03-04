@@ -4,13 +4,13 @@
   align-items: center;
 }
 
-.project__title {
+.project-title {
   color: whitesmoke;
   font-size: 56px;
   margin-top: 50px;
 }
 
-.navlink_container {
+.navlink-container {
   display: flex;
   flex-wrap: wrap;
   margin: 0 10px;
@@ -24,7 +24,7 @@
   color: whitesmoke;
 }
 
-.project__buttons {
+.project-buttons {
   /* margin-right: 30px; */
   font-size: 20px;
   background-color: transparent;
@@ -32,12 +32,12 @@
   position: relative;
 }
 
-.project__buttons:hover {
+.project-buttons:hover {
   color: #3eecc1;
   transition: 0.5s;
 }
 
-.project__buttons::after {
+.project-buttons::after {
   content: "";
   position: absolute;
   left: 0;
@@ -51,19 +51,19 @@
   transition: transform 250ms ease-in;
 }
 
-.project__buttons:hover::after {
+.project-buttons:hover::after {
   transform: scaleX(1);
   transform-origin: left;
   color: #3eecc1;
 }
 
-.navlink_container .link:hover,
-.navlink_container .active {
+.navlink-container .link:hover,
+.navlink-container .active {
   color: #3eecc1;
 }
 
 @media (min-width: 470px) {
-  .navlink_container {
+  .navlink-container {
     width: 400px;
   }
 }

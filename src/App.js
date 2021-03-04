@@ -1,9 +1,9 @@
 import React from 'react';
 // Components
-import Projects from './components/Projects';
-import About from './components/About';
+import Projects from "./components/pages/Projects"
+import About from "./components/pages/About";
 import Header from './components/Header';
-import Home from './components/Home';
+import Home from "./components/pages/Home";
 // Styles
 import './css/App.css';
 
@@ -14,22 +14,19 @@ function App() {
     return (
         <Router>
             <div className="app">
+                <Header />
                 <Switch>
                     <Route path="/projects">
-                        <Header />
                         <Projects />
                     </Route>
 
                     <Route path="/about">
-                        <Header />
                         <About />
                     </Route>
             
                     <Route path="/">
-                        <Header />
                         <Home />
                     </Route>
-
                 </Switch>
             </div>
         </Router>

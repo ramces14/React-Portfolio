@@ -8,15 +8,15 @@
   width: 90%;
   max-width: 400px;
   background-color: #e7e7de;
-}
 
-.btn-container {
-  display: flex;
-  justify-content: space-between;
-}
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
 
-.custom-btn {
-  margin: 10px;
+    .custom-btn {
+      margin: 10px;
+    }
+  }
 }
 
 @media (min-width: 649px) {
@@ -30,7 +30,6 @@
     display: grid;
     width: 100%;
     grid-template-columns: auto auto;
-    /* grid-gap: 20px; */
     margin: 100px 0;
   }
 
